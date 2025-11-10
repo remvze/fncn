@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "sleep",
+  "type": "registry:lib",
+  "title": "sleep",
+  "description": "A helper function that returns a Promise that resolves after a delay.",
+  "files": [
+    {
+      "path": "registry/utils/function/sleep.ts",
+      "content": "export function sleep(ms: number): Promise<void> {\n  return new Promise((resolve) => setTimeout(resolve, ms));\n}\n",
+      "type": "registry:lib"
+    }
+  ]
+}

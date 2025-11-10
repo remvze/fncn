@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "capitalize",
+  "type": "registry:lib",
+  "title": "capitalize",
+  "description": "A helper function to capitalize a string.",
+  "files": [
+    {
+      "path": "registry/utils/string/capitalize.ts",
+      "content": "export function capitalize(str: string): string {\n  return str.charAt(0).toUpperCase() + str.slice(1);\n}\n",
+      "type": "registry:lib"
+    }
+  ]
+}

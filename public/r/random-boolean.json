@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "random-boolean",
+  "type": "registry:lib",
+  "title": "randomBoolean",
+  "description": "A helper function to pick a random boolean value",
+  "files": [
+    {
+      "path": "registry/utils/boolean/random-boolean.ts",
+      "content": "export function randomBoolean(): boolean {\n  return Math.random() < 0.5;\n}\n",
+      "type": "registry:lib"
+    }
+  ]
+}

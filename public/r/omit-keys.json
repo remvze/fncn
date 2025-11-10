@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "omit-keys",
+  "type": "registry:lib",
+  "title": "omitKeys",
+  "description": "A helper function to omit keys from an object.",
+  "files": [
+    {
+      "path": "registry/utils/object/omit-keys.ts",
+      "content": "export function omit<T, K extends keyof T>(obj: T, keys: K[]): Omit<T, K> {\n  const clone = { ...obj };\n\n  keys.forEach((key) => {\n    delete clone[key];\n  });\n\n  return clone;\n}\n",
+      "type": "registry:lib"
+    }
+  ]
+}

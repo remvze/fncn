@@ -1,0 +1,58 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "fncn",
+  "homepage": "https://github.com/remvze/fncn",
+  "items": [
+    {
+      "name": "random-boolean",
+      "type": "registry:lib",
+      "title": "randomBoolean",
+      "description": "A helper function to pick a random boolean value",
+      "files": [
+        {
+          "path": "registry/utils/boolean/random-boolean.ts",
+          "type": "registry:lib"
+        }
+      ]
+    },
+
+    {
+      "name": "sleep",
+      "type": "registry:lib",
+      "title": "sleep",
+      "description": "A helper function that returns a Promise that resolves after a delay.",
+      "files": [
+        {
+          "path": "registry/utils/function/sleep.ts",
+          "type": "registry:lib"
+        }
+      ]
+    },
+
+    {
+      "name": "omit-keys",
+      "type": "registry:lib",
+      "title": "omitKeys",
+      "description": "A helper function to omit keys from an object.",
+      "files": [
+        {
+          "path": "registry/utils/object/omit-keys.ts",
+          "type": "registry:lib"
+        }
+      ]
+    },
+
+    {
+      "name": "capitalize",
+      "type": "registry:lib",
+      "title": "capitalize",
+      "description": "A helper function to capitalize a string.",
+      "files": [
+        {
+          "path": "registry/utils/string/capitalize.ts",
+          "type": "registry:lib"
+        }
+      ]
+    }
+  ]
+}

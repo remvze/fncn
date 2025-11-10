@@ -8,7 +8,8 @@
     "start": "next start",
     "postinstall": "fumadocs-mdx",
     "lint": "biome check",
-    "format": "biome format --write"
+    "format": "biome format --write",
+    "registry:build": "rm -rf public/r && shadcn build"
   },
   "dependencies": {
     "fumadocs-core": "16.0.9",
@@ -20,14 +21,15 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.3.3",
     "@tailwindcss/postcss": "^4.1.16",
     "@types/mdx": "^2.0.13",
     "@types/node": "^24.10.0",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "postcss": "^8.5.6",
+    "shadcn": "^3.5.0",
     "tailwindcss": "^4.1.16",
-    "typescript": "^5.9.3",
-    "@biomejs/biome": "^2.3.3"
+    "typescript": "^5.9.3"
   }
 }
