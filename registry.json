@@ -12,7 +12,7 @@
         {
           "path": "registry/utils/boolean/random-boolean.ts",
           "type": "registry:lib",
-          "target": "utils/random-boolean.ts"
+          "target": "lib/utils/random-boolean.ts"
         }
       ]
     },
