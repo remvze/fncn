@@ -11,7 +11,8 @@
       "files": [
         {
           "path": "registry/utils/boolean/random-boolean.ts",
-          "type": "registry:lib"
+          "type": "registry:lib",
+          "target": "utils/random-boolean.ts"
         }
       ]
     },
