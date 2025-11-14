@@ -9,7 +9,7 @@
       "path": "registry/utils/boolean/random-boolean.ts",
       "content": "export function randomBoolean(): boolean {\n  return Math.random() < 0.5;\n}\n",
       "type": "registry:lib",
-      "target": "utils/random-boolean.ts"
+      "target": "lib/utils/random-boolean.ts"
     }
   ]
 }
